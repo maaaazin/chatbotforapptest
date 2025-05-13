@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "es2020",                  // or "esnext"
+    "module": "commonjs",                // use "ESNext" if using ESM
+    "outDir": "backend/dist",                  // compiled JS goes here
+    "rootDir": "backend/dist/src",                  // TypeScript files go here
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true
+  },
+  "include": ["backend/dist/src"],
+  "exclude": ["backend/dist/node_modules"]
+}
